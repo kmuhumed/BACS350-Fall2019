@@ -17,7 +17,7 @@
     $port = '3306';
     $dbname = 'spillma4_subscribers';
     $db_connect = "mysql:host=localhost:3306;dbname=$dbname";
-    $username = 'spillma_4test';
+    $username = 'spillma4_test';
     $password = 'Dcsd185848!';
     
     echo "<h1>$db_connect</h1>";

@@ -1,9 +1,10 @@
 h1 {
     background-color: goldenrod;
-    box-shadow: 3px
+    font-family: sans-serif;
 }
 h2 {
     background-color: cadetblue;
+    font-family: sans-serif;
 }
 p {
     font-family: sans-serif;
