@@ -1,3 +1,4 @@
+ <link rel="stylesheet" href="subscriberstyle.css">
 <h1>Subscriber Database - Step 1</h1>
 
 <p>This page demonstrates a connection to an actual database at Bluehost.</p>
@@ -14,10 +15,10 @@
 
     // Connect subscriber database
     $port = '3306';
-    $dbname = 'uncobacs_subscribers';
-    $db_connect = "mysql:host=localhost:$port;dbname=$dbname";
-    $username = 'uncobacs_350';
-    $password = 'BACS_350';
+    $dbname = 'spillma4_subscribers';
+    $db_connect = "mysql:host=localhost:3306;dbname=$dbname";
+    $username = 'spillma_4test';
+    $password = 'Dcsd185848!';
     
     echo "<h1>$db_connect</h1>";
     

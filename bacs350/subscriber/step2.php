@@ -1,3 +1,4 @@
+ <link rel="stylesheet" href="subscriberstyle.css">
 <h1>Subscribers Database - Step 2</h1>
 
 <p>This page demonstrates a connection to an actual database at Bluehost.</p>

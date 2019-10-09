@@ -1,12 +1,12 @@
-<h1>Subscriber Database</h1>
+ <link rel="stylesheet" href="subscriberstyle.css">
+<h1>Madi's Subscriber Database</h1>
 
 <p>This page demonstrates a connection to an actual database at Bluehost.</p>
 
 <h2>Step 1 - Simple page</h2>
 
 <p>
-    <b></b> Start by building and debugging a page that looks like this one.
-    Get this working first!
+    <b></b> Here is my working page for step 1 of this project. Check it out!
 </p>
 <p>
     <a href="step1.php">Subscribers Page</a>
