@@ -83,6 +83,18 @@
             <li>
                 <a href="20">Demo #20 - CRUD Views</a>
             </li>
+            <li>
+                <a href="21">Demo #21 - Add Views</a>
+            </li>
+            <li>
+                <a href="22">Demo #22 - Edit Views</a>
+            </li>
+            <li>
+                <a href="23">Demo #23 - Page Logging</a>
+            </li>
+            <li>
+                <a href="24">Demo #24 - Review App</a>
+            </li>
         </ul>
     ';
 
