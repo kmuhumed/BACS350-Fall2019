@@ -117,8 +117,8 @@
     // Connect to Bluehost database 
     function log_database($host, $logname, $username, $password) {
         try {
-            $log_connect = "mysql:host=$host;dbname=$logname";
-            return new PDO($log_connect, $username, $password);
+            $log_connect = "mysql:host=$host;dbname=spillma4_user350";
+            return new PDO($log_connect, $user350, $password);
         } catch (PDOException $e) {
             $error_message = $e->getMessage();
             echo "<p>Error: $error_message</p>";
@@ -129,9 +129,9 @@
 
     // Connect to the Bluehost database
     function bluehost_connect() {
-        $dbname = 'uncobacs_350';
-        $username = 'uncobacs_350';
-        $password = 'BACS_350';
+        $dbname = 'spillma4_youruser_350';
+        $username = 'user350';
+        $password = 'password';
         $port = '3306';
         $host = "localhost:$port";
         return log_database($host, $dbname, $username, $password);
