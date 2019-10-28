@@ -40,3 +40,4 @@
     echo render_page($site_title, $page_title, $content);
 
 ?>
+<img src="picofme.jpg" alt="Madi's Picture">
