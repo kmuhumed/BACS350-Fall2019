@@ -6,14 +6,14 @@
 
     $site_title = 'UNC BACS 350';
     
-    $page_title = "The Seaman's Brain";
+    $page_title = "Madi's Homepage";
     
     $content = '
         <p>
             <a href="..">Home</a>
         </p>
         <p> 
-            This page is the beginning of an ongoing project in BACS 350.
+            This page my homepage for BACS 350.
         </p>
         <p> 
             It is a custom information manager.
@@ -30,8 +30,20 @@
                 <a href="pattern">Design Patterns</a>
             </li>
             <li>
-                <a href="project">Projects</a>
-            </li>
+             <a href="https://spillmandesigns.com/bacs350/subscriber/index.php">Subsciber Project</a>
+             </li>
+             <li>
+              <a href="https://spillmandesigns.com/bacs350/superhero/index.php">Design Superhero Index</a>
+              </li>
+              <li>
+               <a href="https://spillmandesigns.com/bacs350/notes/index.php">Notes Project</a>
+               </li>
+               <li>
+             <a href="https://spillmandesigns.com/bacs350/review/index.php">Review Project</a>
+             </li>
+             <li>
+              <a href="https://spillmandesigns.com/bacs350/skills/index.html">Skills</a>
+             
         </ul>
     ';
 
