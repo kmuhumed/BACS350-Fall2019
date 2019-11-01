@@ -11,23 +11,23 @@
             <form action="insert.php" method="get">
                 <table class="table table-hover">
                     <tr>
-                        <td width="500"><label>Date:</label></td>
+                        <td width="500"><label>date</label></td>
                         <td><input type="date" name="date"></td>
                     </tr>
                     <tr>
-                        <td><label>Designer:</label></td>
+                        <td><label>designer</label></td>
                         <td><input type="text" name="designer"></td>
                     </tr>
                     <tr>
-                        <td><label>Page to Review:</label></td>
+                        <td><label>url</label></td>
                         <td><input type="url" name="url"></td>
                     </tr>
                     <tr>
-                        <td><label>Review Score:</label></td>
+                        <td><label>score</label></td>
                         <td><input type="number" name="score"></td>
                     </tr>
                     <tr>
-                        <td><label>Page to Review:</label></td>
+                        <td><label>report</label></td>
                         <td><textarea name="report"></textarea></td>
                     </tr>
                     <tr>
@@ -43,7 +43,7 @@
     // Create an HTML list on the output
     function render_reviews($reviews) {
         $html = '';
-        foreach($reviews as $row) {
+        foreach($reviews as $row){
             $title = $row['title'];
             $delete_href = "delete.php?id=$row[id]";
             $edit_href = "update.php?id=$row[id]";
