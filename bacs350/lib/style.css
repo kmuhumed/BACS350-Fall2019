@@ -6,7 +6,7 @@ header {
     border: 5px solid #F6B018;
     background-color: #0E3D65;
     font-family: sans-serif;
-    padding: 1em;
+    padding: .5em;
 }
 
 header a {
@@ -19,21 +19,27 @@ header a:hover {
 
 header h1 {
     color: #F6B018;
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+    box-shadow: none;
     text-align: left;
 }
 
 header h2 {
     color: white;
     background-color: #0E3D65;
+    box-shadow: none;
     text-align: left;
+    margin: 0;
+    padding: 0;
+
 }
 
-header .logo {
+header img {
     float: right;
-    color: white;
-}
-
-header .user {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -41,11 +47,12 @@ h1 {
 }
 
 input {
-    max-width: 100%;
+    width: 80%;
 }
 
 main {
     margin: 2em;
+    /*    border: 1px solid green;*/
 }
 
 pre {

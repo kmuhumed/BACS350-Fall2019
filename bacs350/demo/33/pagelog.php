@@ -18,7 +18,7 @@
         "page_title" => "Page log history", 
         "style"      => 'style.css',
         'user'       => '',
-        "content"    => $history);
+        "content"    => $back . $history);
 
     echo render_page($settings);
 
