@@ -1,0 +1,25 @@
+<h2>User Login</h2>
+
+<div class="card">
+
+    <form action="{{ next }}" method="post">
+
+        <table class="table table-hover">
+            <tr>
+                <td style="width:30em"><label>Email:</label></td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Login" class="btn"></td>
+            </tr>
+        </table>
+
+        <input type="hidden" name="action" value="validate">
+        <input type="hidden" name="next" value="{{ next }}">
+    </form>
+
+</div>

@@ -1,0 +1,32 @@
+<h2>Sign Up</h2>
+
+<div class="card">
+    <form action="{{ next }}" method="post">
+
+        <table class="table table-hover">
+            <tr>
+                <td style="width:30em"><label>Email:</label></td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label>First Name:</label></td>
+                <td><input type="text" name="first"></td>
+            </tr>
+            <tr>
+                <td><label>Last Name:</label></td>
+                <td><input type="text" name="last"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Register" class="btn"></td>
+            </tr>
+        </table>
+
+        <input type="hidden" name="action" value="register">
+        <input type="hidden" name="next" value="{{ next }}">
+
+    </form>
+</div>
