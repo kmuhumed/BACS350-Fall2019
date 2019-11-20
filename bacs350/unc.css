@@ -24,16 +24,16 @@ h1 {
     margin: 20px;
     padding: 30px;
     color: #F6B018;
-    background-color: #0E3D65;
-    border: 5px solid #F6B018;
+    background-color: #148F77;
+    border: 5px solid #F1C40F;
     text-align: center;
     box-shadow: 2px 2px 5px gray;
 }
 
 h2 {
     color: #0E3D65;
-    background-color: #F6B018;
-    border: 2px solid #0E3D65;
+    background-color: #148F77;
+    border: 2px solid #F1C40F;
     text-align: center;
     margin: 10px 20px;
     padding: 10px 20px;
@@ -47,8 +47,8 @@ h4 {
 }
 
 header {
-    border: 5px solid #F6B018;
-    background-color: #0E3D65;
+    border: 5px solid #F1C40F;
+    background-color: #148F77;
     font-family: sans-serif;
     padding: .5em;
 }
@@ -58,11 +58,11 @@ header a {
 }
 
 header a:hover {
-    color: #F6B018;
+    color: #F1C40F;
 }
 
 header h1 {
-    color: #F6B018;
+    color: #F1C40F;
     border: none;
     padding: 0;
     margin: 20px 0;
@@ -72,7 +72,7 @@ header h1 {
 
 header h2 {
     color: white;
-    background-color: #0E3D65;
+    background-color: #F1C40F;
     box-shadow: none;
     text-align: left;
     margin: 0;
@@ -88,7 +88,7 @@ header img {
 
 
 hr {
-    border: 4px solid #F6B018;
+    border: 4px solid #F1C40F;
 }
 
 input {
@@ -111,9 +111,9 @@ p {
 }
 
 pre {
-    border: 1px solid #F6B018;
-    border-left: 3px solid #F6B018;
-    border-right: 3px solid #F6B018;
+    border: 1px solid #F1C40F;
+    border-left: 3px solid #F1C40F;
+    border-right: 3px solid #F1C40F;
     background-color: #f0f0f0;
     margin-left: 3em;
     margin-right: 3em;
@@ -125,9 +125,9 @@ pre {
 /* Classes */
 
 .button {
-    border: 3px solid #0E3D65;
+    border: 3px solid #148F77;
     color: #0E3D65;
-    background-color: #F6B018;
+    background-color: #F1C40F;
     border-radius: 10px;
     text-align: center;
     padding: 10px;
@@ -142,7 +142,7 @@ pre {
 
 .card {
     margin: 20px;
-    border: 1px solid #0E3D65;
+    border: 1px solid #148F77;
     width: 40%;
 }
 
@@ -153,23 +153,23 @@ pre {
 }
 
 .collapse {
-    border: 2px solid #0E3D65;
+    border: 2px solid #148F77;
     background-color: #eeeeee;
 }
 
 .collapse-header {
-    border: 1px solid #0E3D65;
-    background-color: #0E3D65;
+    border: 1px solid #148F77;
+    background-color: #148F77;
     padding: 2px;
 }
 
 .collapse-header button {
-    color: #F6B018;
+    color: #F1C40F;
 }
 
 .collapse-header button:hover {
     color: white;
-    background-color: #0E3D65;
+    background-color: #148F77;
 }
 
 .form-error {
@@ -198,7 +198,7 @@ pre {
     padding: 2em;
     box-shadow: 2px 2px 5px grey;
     background-color: #eeeeee;
-    border: 3px solid #0E3D65;
+    border: 3px solid #148F77;
     border-radius: 10px;
 }
 

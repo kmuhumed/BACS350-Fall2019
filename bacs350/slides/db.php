@@ -24,9 +24,9 @@
     // Local Host Database settings
     function local_connect() {
         $host = 'localhost';
-        $dbname = 'bacs350';
-        $username = 'root';
-        $password = '';
+        $dbname = 'spillma4_slides';
+        $username = 'spillma4_slider';
+        $password = 'password';
         $db_connect = "mysql:host=$host;dbname=$dbname";
         return db_connect($db_connect, $username, $password);
     }

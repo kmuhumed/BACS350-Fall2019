@@ -20,10 +20,7 @@
         </p>
         <p> 
             Different rooms within this PHP app will contain different types of info.
-        </p>
-        <p>
-            The source code is available at <a href="https://github.com/Mark-Seaman/UNC-BACS350-Demo/tree/master/bacs350">BACS 350 Source Code</a>.
-        </p>
+        </p
         
         <ul>
             <li>
