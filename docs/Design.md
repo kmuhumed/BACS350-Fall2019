@@ -1,3 +1,14 @@
+#  Brain App Project Design
+
+## Project Documentation
+
+* [Milestones](Milestones.md)
+* [Requirements Plan](Requirements.md)
+* [Design Plan](Design.md)
+* [Code Plan](Code.md)
+* [Test Plan](Test.md)
+
+
 ### Design.md
 * Select your technology and tools
 * Identify the components you must build
@@ -55,6 +66,8 @@ The file structure on the server reflects the app structure.  Here are the key f
             log.php
             
         images
+        demo
+        patterns
         
         docman
         notes
@@ -64,10 +77,6 @@ The file structure on the server reflects the app structure.  Here are the key f
         slides
         templates
         review
-
-        demo
-        project
-        patterns
 
     docs
         BrainProject.md
