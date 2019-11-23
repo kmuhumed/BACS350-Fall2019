@@ -1,5 +1,7 @@
 <?php
+
     require_once 'views.php';
+
     /*
         * id - int (primary key and autoincrement)
         * designer - string (100 chars)
@@ -8,6 +10,7 @@
         * score - number(0-10)
         * date - date
     */
+
     // add_review_form -- Create an HTML form to add record.
     // Fields: designer, url, report, score, date
     function add_review_form() {
@@ -24,6 +27,7 @@
 * Page HTML and CSS validate';
         $add_form = render_template('add.html', array('report' => $report));
         $content = "$title $add_form";
+
         // Create main part of page content
         $settings = array(
             "site_title" => "UNC BACS 350",
@@ -31,8 +35,11 @@
             "logo"       => "Bear.png",
             "style"      => 'style.css',
             "content"    => $content);
+
         return render_page($settings);
     }
+
+
     // Create an HTML list on the output
     function render_reviews($reviews) {
         $html = '';
@@ -43,6 +50,8 @@
         }
         return $html;
     }
+
+
     // Show form for adding a record
     function edit_review_form($record) {
         $body = render_template("edit.html", $record);
@@ -56,6 +65,7 @@
             "logo"       => "Bear.png",
             "style"      => 'style.css',
             "content"    => $content);
+
         return render_page($settings);
     }
     

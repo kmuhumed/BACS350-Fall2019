@@ -1,28 +1,18 @@
-<<<<<<< HEAD
-=======
 * {
     padding: 0;
     margin: 0;
     /*    border: 1px dashed gray;*/
 }
 
->>>>>>> fbf3dc215a5773930eb191942c8bbf397f666659
 body {
     padding: 2em;
 }
 
 header {
-<<<<<<< HEAD
-    border: 5px solid #ff3399;
-    background-color: #3333ff;
-    font-family: sans-serif;
-    padding: .5em;
-=======
     border: 5px solid #F6B018;
     background-color: #0E3D65;
     font-family: sans-serif;
     padding: 1.5em;
->>>>>>> fbf3dc215a5773930eb191942c8bbf397f666659
 }
 
 header a {
@@ -62,47 +52,30 @@ h1 {
     color: #0E3D65;
 }
 
-<<<<<<< HEAD
-/*h2 {*/
-/*    color: #F6B018;*/
-/*    border: 2px solid #F6B018;;*/
-/*}*/
-=======
 h2 {
     color: #F6B018;
     /*    border: 2px solid #F6B018;;*/
 }
->>>>>>> fbf3dc215a5773930eb191942c8bbf397f666659
 
 input {
     width: 80%;
 }
 
-<<<<<<< HEAD
-=======
 p {
     padding: 10px;
     margin: 20px;
 }
 
->>>>>>> fbf3dc215a5773930eb191942c8bbf397f666659
 pre {
     border: 1px solid #0E3D65;
     padding: 1em;
     margin: 2em;
-<<<<<<< HEAD
-=======
     background-color: #eeeeee;
->>>>>>> fbf3dc215a5773930eb191942c8bbf397f666659
 }
 
 textarea {
     width: 80%;
-<<<<<<< HEAD
-    height: 50em;
-=======
     height: 20em;
->>>>>>> fbf3dc215a5773930eb191942c8bbf397f666659
 }
 
 .button {
@@ -115,16 +88,9 @@ textarea {
 }
 
 .card {
-<<<<<<< HEAD
-    margin: 20px;
-    border: 1px solid #0E3D65;
-    width: 40%;
-    float: left;
-=======
     border: 1px solid #0E3D65;
     width: 80%;
     margin: 2em auto;
->>>>>>> fbf3dc215a5773930eb191942c8bbf397f666659
 }
 
 .card-wide {

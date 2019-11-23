@@ -15,13 +15,13 @@
 
     
     // Button to go to other views
-    $add_button = '<p><a class="button" href="insert.php">Add Note Here!</a></p>';
+    $add_button = '<p><a class="button" href="insert.php">Add Note</a></p>';
 
     
     // Display the HTML in the page
     $intro = '
         <p>
-            Visit <a href="https://spillmandesigns.com">My Website</a>
+            Visit the <a href="https://unco-bacs.org/bacs350">Seaman\'s Brain</a>
         </p>
          
     ';

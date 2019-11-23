@@ -14,7 +14,7 @@
 
 
     $content .= '
-    <h2>Public Page (no login required)</h2>
+    <h2>Public Page</h2>
     <p>
         This solution demonstrates the use of authentication code.
         Visiting this page does not require a login.
@@ -26,8 +26,10 @@
 
     // Create main part of page content
     $settings = array(
-        "site_title" => "UNC BACS 350 Demo",
-        "page_title" => "Demo 33 - User Auth", 
+        "site_title" => "BACS 350 Demo",
+        "page_title" => "Public Page (no login required)", 
+        "logo"       => "Bear.png",
+        "style"      => 'style.css',
         'user'       => user_info(),
         "content"    => $content);
 

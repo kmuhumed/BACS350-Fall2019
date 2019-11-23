@@ -4,17 +4,15 @@ body {
 
 
 h1 {
-    color: cornflowerblue;
+    color: #0E3D65;
 }
 
 h2 {
-    color: lightcoral;
+    color: #F6B018;
 }
-header {
-    border-color: goldenrod;
-}
+
 hr {
-    border: 1px solid green;
+    border: 1px solid #F6B018;
     width: 80%;
     margin: 30px auto;
 }
@@ -32,15 +30,12 @@ pre {
 
 .card {
     margin: 20px;
-    border: 1px solid green;
+    border: 1px solid #0E3D65;
 }
 
 .card-header {
     padding: 10px;
     font-weight: bold;
     color: white;
-    background-color: gold;
-}
-img {
-    box-shadow: 5px;
+    background-color: #0E3D65;
 }
