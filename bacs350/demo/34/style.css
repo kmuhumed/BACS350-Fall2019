@@ -3,10 +3,10 @@ body {
 }
 
 header {
-    border: 5px solid #cc3300;
-    background-color: #33ccff;
+    border: 5px solid #F6B018;
+    background-color: #0E3D65;
     font-family: sans-serif;
-    padding: .5em;
+    padding: 1em;
 }
 
 header a {
@@ -18,27 +18,22 @@ header a:hover {
 }
 
 header h1 {
-    color: #cc3300;
-    border: none;
-    padding: 0;
-    margin: .5em;
-    box-shadow: none;
+    color: #F6B018;
     text-align: left;
 }
 
 header h2 {
     color: white;
-    background-color: #cc3300;
-    box-shadow: none;
+    background-color: #0E3D65;
     text-align: left;
-    margin: .5em;
-    padding: 0;
 }
 
-header img {
+header .logo {
     float: right;
-    margin: 0;
-    padding: 0;
+    color: white;
+}
+
+header .user {
 }
 
 h1 {
@@ -46,7 +41,7 @@ h1 {
 }
 
 input {
-    width: 80%;
+    max-width: 100%;
 }
 
 main {
@@ -55,7 +50,6 @@ main {
 
 pre {
     border: 1px solid #0E3D65;
-    background-color: #eeeeee;
     padding: 1em;
     margin: 2em;
 }
@@ -77,11 +71,11 @@ textarea {
 
 .card {
     margin: 20px;
-    border: 2px solid #0E3D65;
-    border-radius: 5px;
+    border: 1px solid #0E3D65;
     width: 100%;
     margin: 2em auto;
     float: left;
+    background-color: #dddddd;
 }
 
 .card-header {
