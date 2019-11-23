@@ -1,7 +1,7 @@
 <?php
     
     require_once 'log.php';
-    require_once '/bacs350/lib/views.php';
+    require_once 'views.php';
     require_once 'auth.php';
     require_once 'note.php';
 
