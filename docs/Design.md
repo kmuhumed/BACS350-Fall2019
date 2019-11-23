@@ -40,3 +40,39 @@ Build a PHP app that is host to the following functionality.
 * Edit
 * Delete
 
+
+### Files
+
+The file structure on the server reflects the app structure.  Here are the key files
+
+    bacs350
+        index.php
+        pagelog.php
+        
+        lib
+            views.php
+            db.php
+            log.php
+            
+        images
+        
+        docman
+        notes
+        planner
+        superhero
+        subscriber
+        slides
+        templates
+        review
+
+        demo
+        project
+        patterns
+
+    docs
+        BrainProject.md
+        Milestones.md
+        Requirements.md
+        Design.md
+        Code.md
+        Test.md
