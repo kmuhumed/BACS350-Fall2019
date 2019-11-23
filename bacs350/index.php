@@ -27,9 +27,6 @@
         
         <ul>
             <li>
-                <a href="team.php">Project Team</a>
-            </li>
-            <li>
                 <a href="demo">Code Demos</a>
             </li>
             <li>
